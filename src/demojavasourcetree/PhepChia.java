@@ -20,8 +20,18 @@ public class PhepChia {
 
     
     public void chia(){
+        try{
+            
+            if(b==0){
+                System.out.println("Không chia cho 0");
+            }else{
+                double ketqua = a/b;
+                System.out.println("Ket qua là " +ketqua);
+            }
+           
+        }catch(Exception e){
+            
+        }
         
-        double ketqua = a/b;
-        System.out.println("Ket qua là " +ketqua);
     }
 }
