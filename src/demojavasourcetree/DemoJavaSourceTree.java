@@ -16,8 +16,9 @@ public class DemoJavaSourceTree {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       phepcong cong = new phepcong(4, 5);
+       cong.Cong();               
        PhepChia phepchia = new PhepChia(3,5);
-       
        phepchia.chia();
     }
     
