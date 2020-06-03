@@ -16,7 +16,9 @@ public class DemoJavaSourceTree {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       
+        phepTru pheptru = new phepTru(4, 5);
+        pheptru.tru();
+            
     }
     
 }
